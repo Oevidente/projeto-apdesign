@@ -1,0 +1,22 @@
+header a:hover {
+  transition: .25s;
+  padding-top: 36px;
+  font-size: 18px;
+  margin-left: 43px;
+}
+
+header a:active {
+  opacity: 0.75;
+}
+
+
+/* div.botao:hover {
+  transition: .25s;
+  opacity: 0.75;
+} */
+
+
+/* 
+div.botao:active {
+  opacity: 0.9;
+} */
