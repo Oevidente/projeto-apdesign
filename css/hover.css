@@ -11,12 +11,14 @@ header a:active {
 
 
 /* div.botao:hover {
-  transition: .25s;
-  opacity: 0.75;
+  transition: .3s;
+  background-color: rgb(135, 20, 98);
+  box-shadow: inset 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 0px 6px #C3489C;
 } */
 
-
-/* 
-div.botao:active {
-  opacity: 0.9;
-} */
+input.button:hover {
+  transition: .3s;
+  background-image: var(--botao-hover);
+  background-color: rgb(135, 20, 98);
+  box-shadow: inset 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 0px 6px #C3489C;
+}
