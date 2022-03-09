@@ -1,24 +1,47 @@
-header a:hover {
+:root {
+  --cor0: #F58194;
+  --cor1: #D63A59;
+  --cor2: #CC092F;
+  --cor3: #C3489C;
+  --cor4: #B41A83;
+  --cor5: #871462;
+  --fonte-padrao: "Comfortaa", Verdana, Helvetica, sans-serif;
+  --tamanho-padrao: 400;
+  --tamanho-bold: 700;
+  --fundo-home: url("../img/fundohome.png");
+  --botao-fundo: url("../svg/lupa.svg");
+  --botao-hover: url("../svg/lupa_hover.svg")
+}
+
+header>nav a:hover {
   transition: .25s;
   padding-top: 36px;
   font-size: 18px;
   margin-left: 43px;
 }
 
-header a:active {
+header>nav a:active {
   opacity: 0.75;
 }
 
+div.search-box:hover {
+  box-shadow: inset 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 0px 6px rgba(0, 0, 0, 0.25);
+}
 
-/* div.botao:hover {
-  transition: .3s;
-  background-color: rgb(135, 20, 98);
-  box-shadow: inset 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 0px 6px #C3489C;
-} */
+div.search-box:hover>input.search-txt {
+  padding: 0px 6px;
+  padding-left: 10px;
+  width: 240px;
+}
 
-input.button:hover {
+div.search-box:hover>a.search-button {
   transition: .3s;
   background-image: var(--botao-hover);
   background-color: rgb(135, 20, 98);
   box-shadow: inset 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 0px 6px #C3489C;
+}
+
+div.search-box:hover>::-webkit-input-placeholder {
+  color: var(--cor5);
+  opacity: 75%;
 }
