@@ -1,6 +1,7 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
 :root {
+  --corlight: hsl(350, 85%, 90%);
   --cor0: #F58194;
   --cor1: #D63A59;
   --cor2: #CC092F;
@@ -16,6 +17,8 @@
 }
 
 body {
+  font-family: var(--fonte-padrao);
+  color: white;
   background-image: var(--fundo-home);
   background-position: top center;
   background-size: 100vw;
@@ -26,11 +29,27 @@ body {
 
 header {
   width: 100%;
-  min-height: 94px;
+  height: 70px;
   /* background-color: #E3597F; */
   font-family: var(--fonte-padrao);
   display: flex;
   justify-content: center;
+}
+
+
+/* nav.links-menu {
+  transform: translateX(120px);
+} */
+
+.logo-home {
+  position: absolute;
+  top: 20px;
+  left: 206px;
+}
+
+.logo-home img {
+  height: 31px;
+  transition: .5s;
 }
 
 header nav {
@@ -55,10 +74,10 @@ header a.cont {
 }
 
 div.search-box {
-  margin: 34.5px 37px;
+  margin: 14.5px 37px;
   height: 37px;
   padding: 2px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
   border-radius: 37px;
   display: flex;
@@ -98,4 +117,82 @@ a.search-button {
   font-family: var(--fonte-padrao);
   font-weight: var(--tamanho-bold);
   transition: .5s;
+}
+
+hr {
+  margin: 0;
+  height: 2px;
+  border: none;
+  background-color: white;
+  opacity: 15%;
+}
+
+.logo-slogan {
+  padding-top: 206px;
+  padding-left: 206px;
+  justify-content: left;
+}
+
+.about {
+  padding-top: 22px;
+}
+
+.about-btn {
+  padding: 10px 15px;
+  margin-left: 206px;
+  height: 46px;
+  width: 176px;
+  font-size: 24px;
+  font-weight: var(--tamanho-bold);
+  font-family: var(--fonte-padrao);
+  color: var(--cor0);
+  text-decoration: none;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.gallery {
+  padding-top: 100px;
+  margin-top: 500px;
+  min-height: 400px;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  display: flex;
+  justify-content: space-between;
+}
+
+.gallery article {
+  width: 360px;
+  height: 300px;
+  /* background-color: #CC092F; */
+  margin-left: 206px;
+  padding: 10px 0 10px 0;
+}
+
+.gallery>div {
+  background-color: white;
+  height: 300px;
+  width: 800px;
+  margin-right: 206px;
+}
+
+.gallery>article>a {
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  margin-top: 130px;
+  color: white;
+  text-align: center;
+  font-size: .8em;
+  padding: 5px;
+}
+
+footer a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
 }
