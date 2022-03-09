@@ -57,10 +57,28 @@ div.search-box:hover>::-webkit-input-placeholder {
   box-shadow: inset 0px 3px 6px rgba(0, 0, 0, 0.16);
 }
 
-.gallery>article>a:hover {
+.gallery:hover {
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+}
+
+.gallery>.services>a:hover {
   transition: .5s;
   text-decoration: underline;
   color: var(--corlight)
+}
+
+.arrow-dir:hover {
+  background-image: url("../img/seta_dir_hover.png");
+}
+
+.arrow-lef:hover {
+  background-image: url("../img/seta_lef_hover.png");
+}
+
+.photos ul li div:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.2);
 }
 
 footer a:hover {
