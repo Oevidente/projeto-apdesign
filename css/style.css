@@ -20,11 +20,12 @@ body {
   font-family: var(--fonte-padrao);
   color: white;
   background-image: var(--fundo-home);
-  background-position: top center;
+  background-position: top left;
   background-size: 100vw;
+  background-attachment: scroll;
   margin: 0px;
   height: 100vh;
-  width: 100vw;
+  max-width: 100vw;
 }
 
 abbr {
@@ -164,7 +165,7 @@ hr {
   padding-top: 100px;
   margin-top: 500px;
   min-height: 400px;
-  width: 100vw;
+  max-width: 100vw;
   background-color: rgba(0, 0, 0, 0.4);
   display: flex;
   justify-content: space-between;
