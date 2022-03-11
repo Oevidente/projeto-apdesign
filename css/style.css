@@ -69,8 +69,21 @@
     display: none;
     background: none;
   }
-  .about-btn {
+  a.about-btn {
     font-size: 14px;
+  }
+  .gallery {
+    /* display: inline-block; */
+  }
+  article.services {
+    position: absolute;
+    min-width: 300px;
+  }
+  nav.photos {
+    opacity: 0;
+  }
+  footer {
+    margin: 0 12.25vw;
   }
 }
 
@@ -293,10 +306,10 @@ hr {
 }
 
 .gallery article {
-  width: 360px;
+  max-width: 320px;
   height: 300px;
   /* background-color: #CC092F; */
-  margin-left: 206px;
+  margin: 0 1vw 0 12vw;
   padding: 10px 0 10px 0;
 }
 
@@ -305,38 +318,16 @@ hr {
   color: white;
 }
 
-nav.nav-arrows {
-  padding-top: 20px;
-  display: flex;
-  justify-content: justify;
-}
-
-.arrow-dir {
-  height: 25px;
-  width: 16px;
-  margin-left: 40px;
-  background-image: url("../img/seta_dir.png");
-  background-size: cover;
-  transition: .25s;
-}
-
-.arrow-lef {
-  height: 25px;
-  width: 16px;
-  margin-left: 10px;
-  background-image: url("../img/seta_lef.png");
-  background-size: cover;
-  transition: .25s;
-}
-
 .gallery>.photos {
   /* background-color: white; */
   height: 300px;
-  width: 800px;
-  margin-right: 206px;
-  display: inline;
+  max-width: 40vw;
+  margin: 0 12vw 0 1vw;
+  display: flex;
+  justify-content: space-between;
   overflow-y: scroll;
   overflow-x: hidden;
+  background-color: #0d0d0d;
 }
 
 .photos::-webkit-scrollbar {
@@ -363,13 +354,13 @@ nav.nav-arrows {
 
 .photos ul li div {
   float: left;
-  height: 280px;
-  width: 340px;
-  min-width: 340px;
+  max-height: 280px;
+  width: 17.7vw;
+  min-width: 200px;
   padding: 16px 0 0 16px;
   border-radius: 8px;
   background-color: rgba(0, 0, 0, 0.444);
-  margin: 0px 10px 10px 0px;
+  margin: 5px 5px;
   transition: .5s;
 }
 
