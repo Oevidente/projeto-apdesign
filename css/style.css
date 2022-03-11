@@ -7,6 +7,9 @@
   }
   .cabecalho.on {
     position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     top: 0;
     left: 0;
     margin: 0;
@@ -20,7 +23,9 @@
   .menu-burguer {
     width: 40px;
     height: 30px;
-    margin: auto 0;
+    position: absolute;
+    top: 15px;
+    right: 0;
   }
   .one,
   .two,
@@ -30,15 +35,15 @@
     width: 100%;
     margin: 6px auto;
     border-radius: 5px;
+    transition: .5s;
   }
   .cabecalho.on .links-menu {
     display: block;
-    margin: auto;
   }
   .cabecalho.on .menu-burguer {
     position: absolute;
     top: 15px;
-    right: 15px;
+    right: 51px;
   }
   .cabecalho.on .menu-burguer .one {
     transform: rotate(45deg) translate(7px, 7px);

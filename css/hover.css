@@ -26,6 +26,15 @@
   text-decoration-color: var(--corlight);
 }
 
+
+/* .cabecalho.on>nav a:hover {
+  transition: .5s;
+  color: var(--cor2);
+  border-radius: 20px;
+  padding: 0 20px;
+  background-color: var(--corlight);
+} */
+
 .cabecalho>nav a:active {
   opacity: 0.75;
 }
