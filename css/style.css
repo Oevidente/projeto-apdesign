@@ -327,7 +327,6 @@ hr {
   justify-content: space-between;
   overflow-y: scroll;
   overflow-x: hidden;
-  background-color: #0d0d0d;
 }
 
 .photos::-webkit-scrollbar {
