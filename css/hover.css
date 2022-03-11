@@ -18,7 +18,7 @@
   opacity: 80%;
 }
 
-header>nav a:hover {
+.cabecalho>nav a:hover {
   transition: .5s;
   color: var(--corlight);
   text-decoration: underline 1px;
@@ -26,7 +26,7 @@ header>nav a:hover {
   text-decoration-color: var(--corlight);
 }
 
-header>nav a:active {
+.cabecalho>nav a:active {
   opacity: 0.75;
 }
 
@@ -49,6 +49,14 @@ div.search-box:hover>a.search-button {
 div.search-box:hover>::-webkit-input-placeholder {
   color: var(--cor5);
   opacity: 75%;
+}
+
+.language p:hover {
+  transition: .5s;
+  color: var(--corlight);
+  text-decoration: underline 1px;
+  text-underline-position: under;
+  text-decoration-color: var(--corlight);
 }
 
 .about-btn:hover {
