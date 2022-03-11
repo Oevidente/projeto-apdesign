@@ -51,6 +51,11 @@ div.search-box:hover>::-webkit-input-placeholder {
   opacity: 75%;
 }
 
+.language:hover {
+  transition: .5s;
+  background-image: url(../img/language-icon-hover.png);
+}
+
 .language p:hover {
   transition: .5s;
   color: var(--corlight);
