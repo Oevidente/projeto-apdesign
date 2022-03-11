@@ -353,10 +353,11 @@ hr {
 
 .photos ul li div {
   float: left;
-  max-height: 280px;
+  max-height: 31vh;
+  height: 260px;
   width: 17.7vw;
   min-width: 200px;
-  padding: 16px 0 0 16px;
+  padding: 16px 0 16px 16px;
   border-radius: 8px;
   background-color: rgba(0, 0, 0, 0.444);
   margin: 5px 5px;
@@ -364,10 +365,11 @@ hr {
 }
 
 .photos h3 {
-  padding-top: 100px;
+  padding-top: 5vh;
 }
 
 .photos p {
+  padding-right: 16px;
   padding-top: 34px;
   font-size: 12px;
 }
