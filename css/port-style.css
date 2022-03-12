@@ -14,7 +14,7 @@ main {
 }
 
 section.titulo {
-  margin: 12vh 12.25vw 0 12.25vw;
+  margin: 8vh 12.25vw 0 12.25vw;
 }
 
 section.titulo h1 {
@@ -22,7 +22,7 @@ section.titulo h1 {
 }
 
 section.menu-port {
-  margin: .1vh 12.25vw;
+  margin: .1vh 12.25vw 0 12.25vw;
   text-align: center;
 }
 
@@ -44,7 +44,7 @@ div.trabalhos {
   margin: 3vh auto;
   margin-bottom: 0px;
   /* max-width: 1165px; */
-  height: 754px;
+  height: 680px;
   border-radius: 8px;
   overflow-y: scroll;
 }
