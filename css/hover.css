@@ -103,6 +103,18 @@ div.search-box:hover>::-webkit-input-placeholder {
   box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.2);
 }
 
+.menu-port>nav a:hover {
+  transition: .5s;
+  color: var(--corlight);
+  text-decoration: underline 1px;
+  text-underline-position: under;
+  text-decoration-color: var(--corlight);
+}
+
+.trabalhos img:hover {
+  filter: brightness(100%);
+}
+
 footer a:hover {
   transition: .5s;
   text-decoration: underline;

@@ -367,7 +367,6 @@ footer {
   font-size: .8em;
   padding: 5px;
   align-self: flex-end;
-  min-width: 100vw;
 }
 
 footer a {
