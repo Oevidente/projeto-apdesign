@@ -72,9 +72,6 @@
   a.about-btn {
     font-size: 14px;
   }
-  .gallery {
-    /* display: inline-block; */
-  }
   article.services {
     position: absolute;
     min-width: 300px;
@@ -143,24 +140,15 @@ header {
 
 .cabecalho {
   margin: 0 12.25vw;
-  /* max-width: 70vw; */
   height: 70px;
   display: flex;
   justify-content: space-between;
   font-family: var(--fonte-padrao);
 }
 
-
-/* nav.links-menu {
-  transform: translateX(120px);
-} */
-
 .logo-home {
   align-self: center;
   justify-self: flex-start;
-  /* position: absolute;
-  top: 20px;
-  left: 206px; */
 }
 
 .logo-home img {
@@ -272,7 +260,6 @@ hr {
   justify-content: flex-start;
   max-width: 533px;
   min-width: 200px;
-  /* width: 533px; */
 }
 
 .about {
@@ -308,7 +295,6 @@ hr {
 .gallery article {
   max-width: 320px;
   height: 300px;
-  /* background-color: #CC092F; */
   margin: 0 1vw 0 12vw;
   padding: 10px 0 10px 0;
 }
@@ -319,7 +305,6 @@ hr {
 }
 
 .gallery>.photos {
-  /* background-color: white; */
   height: 300px;
   max-width: 40vw;
   margin: 0 12vw 0 1vw;
