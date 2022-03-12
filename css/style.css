@@ -132,6 +132,7 @@ ul {
 
 header {
   position: fixed;
+  top: 0;
   width: 100vw;
   backdrop-filter: blur(6px);
   background-color: rgba(214, 58, 89, 0.20);
