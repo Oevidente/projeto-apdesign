@@ -78,6 +78,7 @@
   }
   nav.photos {
     opacity: 0;
+    z-index: -1;
   }
   footer {
     margin: 0 12.25vw;
@@ -285,6 +286,7 @@ main {
   text-decoration: none;
   background-color: white;
   border-radius: 8px;
+  z-index: 9;
 }
 
 .gallery {
