@@ -147,7 +147,6 @@ div.timeline {
 div.hist-txt {
   /* display: flex;
   align-self: flex-end; */
-  margin-right: 12.25vw;
   max-width: 610px;
   height: 1123px;
   text-align: right;
