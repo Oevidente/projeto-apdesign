@@ -1,4 +1,29 @@
-@media (max-width: 1016px) {}
+@media (max-width: 1016px) {
+  section.menu-port nav {
+    display: grid;
+  }
+  section.menu-port nav a {
+    margin-bottom: 10px;
+  }
+  div.trabalhos {
+    margin: 0 auto;
+    padding-left: 25px;
+    grid-template-columns: repeat(2, 150px);
+    grid-template-rows: repeat(10, 1vw);
+    max-width: 450px;
+    height: 380px;
+    overflow-x: hidden;
+    overflow-wrap: normal;
+  }
+  .item-trabalho {
+    max-width: 150px;
+    max-height: 150px;
+  }
+  .item-trabalho img {
+    max-height: 150px;
+    margin: 0;
+  }
+}
 
 main {
   display: grid;
