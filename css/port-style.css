@@ -219,7 +219,7 @@ div.trabalhos {
 
 .item30 {
   grid-column: 5 / span1;
-  grid-row: 6 / span1;
+  grid-row: 5 / span1;
 }
 
 .item31 {
@@ -233,7 +233,7 @@ div.trabalhos {
 }
 
 .item33 {
-  grid-column: 5 / span1;
+  grid-column: 3 / span1;
   grid-row: 6 / span1;
 }
 
@@ -249,27 +249,27 @@ div.trabalhos {
 
 .item36 {
   grid-column: 1 / span1;
-  grid-row: 6 / span1;
+  grid-row: 7 / span1;
 }
 
 .item37 {
   grid-column: 2 / span1;
-  grid-row: 6 / span1;
+  grid-row: 7 / span1;
 }
 
 .item38 {
   grid-column: 3 / span1;
-  grid-row: 6 / span1;
+  grid-row: 7 / span1;
 }
 
 .item39 {
   grid-column: 4 / span1;
-  grid-row: 6 / span1;
+  grid-row: 7 / span1;
 }
 
 .item40 {
   grid-column: 5 / span1;
-  grid-row: 5 / span1;
+  grid-row: 7 / span1;
 }
 
 .img-trabalho {
