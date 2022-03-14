@@ -1,4 +1,35 @@
-@media (max-width: 1016px) {}
+@media (max-width: 1016px) {
+  main {
+    padding: 0;
+    max-width: 500px;
+  }
+  .contact {
+    transform: translateX(-450px);
+    margin: 0;
+    padding: 0;
+  }
+  .contact h1 {
+    font-size: 29px;
+  }
+  .contact p {
+    max-width: 300px;
+    font-size: 1rem;
+  }
+  .contact .nome,
+  .contact .mensagem,
+  .contact .email {
+    max-width: 200px;
+    font-size: 1rem;
+    width: 200px;
+  }
+  .contact .submit {
+    font-size: 1rem;
+    width: 100px;
+  }
+  main .contact ::-webkit-input-placeholder {
+    font-size: 1rem;
+  }
+}
 
 body {
   background-image: url(../img/fundocontatos.png);
@@ -14,6 +45,7 @@ main {
   flex-direction: row;
   flex-wrap: wrap;
   text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+  transform: translateX(-120px);
   ;
 }
 
