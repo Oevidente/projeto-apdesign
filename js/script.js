@@ -8,3 +8,11 @@ menuBurguer.addEventListener('click', () => {
   show = !show;
   //adiciona ou remove uma classe na section cabecalho sempre que for clicada
 });
+
+/* DARK MODE */
+
+const darkModeBtn = cabecalho.querySelector('.dark-mode-btn');
+darkModeBtn.addEventListener('click', () => {
+  darkModeBtn.classList.toggle('dark-mode-on', show);
+  show = !show;
+})

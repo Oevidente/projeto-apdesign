@@ -73,6 +73,16 @@ div.search-box:hover>::-webkit-input-placeholder {
   text-decoration-color: var(--corlight);
 }
 
+.dark-mode-btn:hover {
+  transition: .5s;
+  background-image: url(../img/night-mode-hover.png);
+}
+
+.dark-mode-on {
+  transition: .5s;
+  background-image: url(../img/night-mode-on.png);
+}
+
 .about-btn:hover {
   transition: .5s;
   color: var(--cor1);

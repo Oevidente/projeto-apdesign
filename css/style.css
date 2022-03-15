@@ -247,6 +247,22 @@ a.search-button {
   text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
 }
 
+.dark-mode-btn {
+  background-image: url(../img/night-mode-off.png);
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: 20px;
+  height: 20px;
+  width: 20px;
+  align-self: center;
+  justify-self: flex-end;
+}
+
+.dark-mode-btn a {
+  height: 20px;
+  width: 20px;
+}
+
 hr {
   margin: 0;
   height: 2px;
