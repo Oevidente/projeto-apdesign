@@ -97,6 +97,8 @@
   --tamanho-padrao: 400;
   --tamanho-bold: 700;
   --fundo-home: url("../img/fundohome.png");
+  --fundo-sobre: url("../img/fundosobre.png");
+  --fundo-cont: url("../img/fundocontatos.png");
   --botao-fundo: url("../svg/lupa.svg");
   --botao-hover: url("../svg/lupa_hover.svg");
 }

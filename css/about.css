@@ -74,6 +74,10 @@
   }
 }
 
+body {
+  background-image: var(--fundo-sobre);
+}
+
 main {
   /* display: inline-block; */
   display: grid;

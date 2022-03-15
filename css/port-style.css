@@ -52,6 +52,10 @@
   }
 }
 
+body {
+  background-image: var(--fundo-sobre);
+}
+
 main {
   display: grid;
   margin: 0;
