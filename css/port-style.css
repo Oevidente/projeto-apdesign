@@ -54,6 +54,7 @@
 
 body {
   background-image: var(--fundo-sobre);
+  overflow-X: hidden;
 }
 
 main {
